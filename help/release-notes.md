@@ -5,13 +5,13 @@ seo-title: Notas de versão do Device Co-op da Experience Cloud
 title: Notas de versão do Device Co-op da Experience Cloud
 uuid: 337d7eee-12b1-4ba4-a63b-3ccb88b825f7
 translation-type: tm+mt
-source-git-commit: c1d0bc05d3f211fa3e899e98fbcc908be7399031
+source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
 
 ---
 
 
-# Experience Cloud Device Co-op release notes{#experience-cloud-device-co-op-release-notes}
+# Notas de versão do Device Co-op da Experience Cloud{#experience-cloud-device-co-op-release-notes}
 
 Lançamentos de recursos, atualizações ou alterações no Device Co-op.
 
-Essas alterações também estão contempladas nas [notas de versão da Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/). Consulte as [notas de versão anteriores](https://marketing.adobe.com/resources/help/en_US/whatsnew/c_legacy_releases.html) para ver anúncios anteriores da Experience Cloud.
+Essas alterações também são capturadas nas notas [de versão da](https://docs.adobe.com/content/help/pt-BR/release-notes/experience-cloud/current.html)Experience Cloud. Consulte a seção Notas de versão anteriores nesta página para obter anúncios mais antigos da Experience Cloud.

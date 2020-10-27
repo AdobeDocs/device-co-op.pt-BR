@@ -1,6 +1,8 @@
 ---
 cloud: experience-cloud
 product: core-services
+solution: Experience Cloud Services
+type: Documentation
 solution-title: Aprendizagem e suporte
 solution-hub-url: https://helpx.adobe.com/br/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
@@ -8,17 +10,20 @@ getting-started-title: Introdução
 getting-started-url: https://helpx.adobe.com/br/experience-cloud-core-services/get-started.html
 tutorials-title: Tutoriais
 tutorials-url: https://helpx.adobe.com/br/experience-cloud/tutorials.html
-git-repo: https://github.com/AdobeDocs/device-co-op.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/device-co-op.pt-BR
 index: true
 translation-type: tm+mt
-source-git-commit: 8eb9df0580df93c45dba763c2dd5324fd459f7ab
+source-git-commit: 187e2414f1211c94a75329bf111b9934230edd3b
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 97%
 
 ---
 
 
 # Metadados para uso interno
 
-O arquivo metadata.md inclui metadados de nível de repositório transmitidos para os arquivos TOC.md do guia do usuário no repositório. Se desejar alterar o conteúdo metadata. md para qualquer guia do usuário, faça isso em qualquer arquivo TOC. md.
+O arquivo metadata.md inclui metadados de nível de repositório transmitidos para os arquivos TOC.md do guia do usuário no repositório. Se desejar alterar o conteúdo metadata.md para qualquer guia do usuário, faça isso em qualquer arquivo TOC.md.
 
 | metadata | o que faz |
 |--- |--- |

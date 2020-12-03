@@ -1,18 +1,21 @@
 ---
-description: A métrica de Pessoas é a contagem de pessoas (ou grupos de dispositivos) com base no Gráfico de dispositivos da Adobe. Você pode aplicar a métrica de Pessoas para identificar visitantes em seus dispositivos na área de trabalho da Análise.
-seo-description: A métrica de Pessoas é a contagem de pessoas (ou grupos de dispositivos) com base no Gráfico de dispositivos da Adobe. Você pode aplicar a métrica de Pessoas para identificar visitantes em seus dispositivos na área de trabalho da Análise.
+description: A métrica de Pessoas é a contagem de pessoas (ou grupos de dispositivos) com base no Gráfico de dispositivos Adobe. Você pode aplicar a métrica de Pessoas para identificar visitantes em seus dispositivos no Analysis Workspace.
+seo-description: A métrica de Pessoas é a contagem de pessoas (ou grupos de dispositivos) com base no Gráfico de dispositivos Adobe. Você pode aplicar a métrica de Pessoas para identificar visitantes em seus dispositivos no Analysis Workspace.
 seo-title: Métrica de pessoas
 title: Métrica de pessoas
 uuid: 8e731779-044d-4d31-a19a-f579a9c8c471
 translation-type: tm+mt
 source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
+workflow-type: tm+mt
+source-wordcount: '1408'
+ht-degree: 3%
 
 ---
 
 
 # Métrica de pessoas{#people-metric}
 
-A métrica de Pessoas é a contagem de pessoas (ou grupos de dispositivos) com base no Gráfico de dispositivos da Adobe. Você pode aplicar a métrica de Pessoas para identificar visitantes em seus dispositivos na área de trabalho da Análise.
+A métrica de Pessoas é a contagem de pessoas (ou grupos de dispositivos) com base no Gráfico de dispositivos Adobe. Você pode aplicar a métrica de Pessoas para identificar visitantes em seus dispositivos no Analysis Workspace.
 
 ## Pré-requisitos e considerações da métrica de Pessoas {#section-34551d0435fb4b3cb3fad736b7961541}
 
@@ -25,8 +28,8 @@ A métrica de Pessoas é a contagem de pessoas (ou grupos de dispositivos) com b
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Dispositivo Co-op </p> </td> 
-   <td colname="col2"> <p> Para usar a métrica de Pessoas, torne-se um membro do <a href="http://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html" format="html" scope="external"> Adobe Experience Cloud Device Co-op</a>. A cooperativa identifica vários dispositivos de uma pessoa (ou Experience Cloud IDs). O Analytics utiliza essas informações para calcular estatisticamente o número de pessoas que interagem com uma marca. A métrica tem uma precisão de até 5%. </p> <p><b>Regiões</b>: O Device Co-op está disponível atualmente apenas nos EUA e Canadá. Portanto, ao avaliar a métrica de Pessoas, você deve aplicar um segmento à sua análise que filtros seus dados somente para os EUA e Canadá. </p> <p>Toda semana, o Gráfico de dispositivos calcula uma nova versão da cooperativa e a publica para uso. Às terças-feiras, o sistema coleta os dados mais recentes e publica uma versão atualizada do gráfico. As soluções da Experience Cloud usam a versão mais recente do gráfico. Especificamente para o Analytics, as alterações são lidas na quarta-feira e o processamento das alterações normalmente leva de 1 a 2 dias úteis. </p> <p> <p>Importante:  Quando o gráfico é atualizado semanalmente, pode afetar historicamente a métrica de Pessoas. Em outras palavras, as contagens históricas de Pessoas podem mudar ao longo do tempo à medida que o gráfico aprende e é atualizado. Por exemplo, se você executar um relatório hoje que conta Pessoas no mês passado e, em seguida, executar o mesmo relatório em uma semana após a atualização do gráfico, a contagem histórica de Pessoas poderá mudar ligeiramente. </p> </p> </td> 
+   <td colname="col1"> <p>Device Co-op </p> </td> 
+   <td colname="col2"> <p> Para usar a métrica de Pessoas, torne-se um membro do <a href="http://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html" format="html" scope="external"> Adobe Experience Cloud Device Co-op</a>. A cooperativa identifica vários dispositivos (ou IDs de Experience Cloud) de uma pessoa. O Analytics utiliza essas informações para calcular estatisticamente o número de pessoas que interagem com uma marca. A métrica tem uma precisão de até 5%. </p> <p><b>Regiões</b>: O Device Co-op está disponível atualmente apenas nos EUA e Canadá. Portanto, ao avaliar a métrica de Pessoas, você deve aplicar um segmento à sua análise que filtros seus dados somente para os EUA e Canadá. </p> <p>Toda semana, o Gráfico de dispositivos calcula uma nova versão da cooperativa e a publica para uso. Às terças-feiras, o sistema coleta os dados mais recentes e publica uma versão atualizada do gráfico. As soluções de Experience Cloud usam a versão mais recente do gráfico. Especificamente para o Analytics, as alterações são lidas na quarta-feira e o processamento das alterações normalmente leva de 1 a 2 dias úteis. </p> <p> <p>Importante:  Quando o gráfico é atualizado semanalmente, pode afetar historicamente a métrica de Pessoas. Em outras palavras, as contagens históricas de Pessoas podem mudar ao longo do tempo à medida que o gráfico aprende e é atualizado. Por exemplo, se você executar um relatório hoje que conta Pessoas no mês passado e, em seguida, executar o mesmo relatório em uma semana após a atualização do gráfico, a contagem histórica de Pessoas poderá mudar ligeiramente. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Permissões de métrica </td> 
@@ -37,12 +40,12 @@ A métrica de Pessoas é a contagem de pessoas (ou grupos de dispositivos) com b
    <td colname="col2"> <p>A métrica de Pessoas será ativada para todos os conjuntos de relatórios que estão <a href="https://docs.adobe.com/content/help/pt-BR/core-services/interface/about-core-services/report-suite-mapping.html" format="html" scope="external"> mapeados para um IMSORG</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Projetos/ferramentas de Análise </p> </td> 
-   <td colname="col2"> <p>Use a métrica de Pessoas na <span class="wintitle"> Análise Workspace</span>, <span class="wintitle"> Análise</span>ad hoc, <span class="wintitle"> Construtor</span>de relatórios e por meio da API. Você pode usá-la em qualquer lugar que usasse a métrica Visitantes únicos, incluindo Métricas calculadas. </p> <p>Por exemplo, crie uma métrica de receita por pessoa para substituir uma métrica de receita por visitante exclusivo. </p> <p>Um modelo <a href="https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html" format="html" scope="external"> de projeto de</a> Pessoas está disponível para começar a usar a métrica de Pessoas na área de trabalho da Análise. </p> </td> 
+   <td colname="col1"> <p>Projetos/ferramentas de análise </p> </td> 
+   <td colname="col2"> <p>Use a métrica de Pessoas no <span class="wintitle"> Analysis Workspace</span>, <span class="wintitle"> Ad Hoc Analysis</span>, <span class="wintitle"> Report Builder</span>e por meio da API. Você pode usá-la em qualquer lugar que usasse a métrica Visitantes únicos, incluindo Métricas calculadas. </p> <p>Por exemplo, crie uma métrica de receita por pessoa para substituir uma métrica de receita por visitante exclusivo. </p> <p>Um modelo <a href="https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html" format="html" scope="external"> de projeto de</a> Pessoas está disponível para começar a usar a métrica de Pessoas no Analysis Workspace. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ativar regras de bots </p> </td> 
-   <td colname="col2"> <p>A Adobe recomenda ativar as Regras <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-rules.html" format="html" scope="external"> do</a>robô, especialmente ao usar a métrica de Pessoas. </p> <p>Quando um bot rastreia seu site, ele aumenta artificialmente sua contagem de Visitantes únicos. A remoção do tráfego de robô de seu conjunto de relatórios fornece uma medição mais precisa da atividade em suas propriedades digitais, tanto em termos de Visitantes únicos quanto de Pessoas. </p> <p>Para fazer isso, navegue até <span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Administrador</span> &gt; <span class="uicontrol"> Report Suites</span>. Select the correct report suite, and then go to <span class="uicontrol"> Edit Settings</span> &gt; <span class="uicontrol"> General</span> &gt; <span class="uicontrol"> Bot Rules</span>. </p> </td> 
+   <td colname="col2"> <p>O Adobe recomenda ativar as Regras <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-rules.html" format="html" scope="external"> do</a>robô, especialmente ao usar a métrica de Pessoas. </p> <p>Quando um bot rastreia seu site, ele aumenta artificialmente sua contagem de Visitantes únicos. A remoção do tráfego de robô de seu conjunto de relatórios fornece uma medição mais precisa da atividade em suas propriedades digitais, tanto em termos de Visitantes únicos quanto de Pessoas. </p> <p>Para fazer isso, navegue até <span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Administrador</span> &gt; <span class="uicontrol"> Report Suites</span>. Select the correct report suite, and then go to <span class="uicontrol"> Edit Settings</span> &gt; <span class="uicontrol"> General</span> &gt; <span class="uicontrol"> Bot Rules</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Considerações de segmentação </p> </td> 
@@ -65,7 +68,7 @@ A métrica de Pessoas permite atribuir com precisão a compra de $30 a uma pesso
 
 **Precisão aumentada em relatórios**
 
-A métrica de Pessoas permite que você considere vários dispositivos como uma única entidade. O projeto da área de trabalho de Análise a seguir mostra comparações de precisão aumentadas entre o relatórios de Visitantes únicos e o relatórios de pessoas:
+A métrica de Pessoas permite que você considere vários dispositivos como uma única entidade. O projeto do Analysis Workspace a seguir mostra comparações de precisão aumentadas entre o relatórios Visitantes únicos e o relatórios de pessoas:
 
 ![](assets/people_report.png)
 
@@ -84,12 +87,12 @@ Comparar pessoas e Visitantes únicos lado a lado:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Pessoas </p> </td> 
+   <td colname="col1"> <p>People </p> </td> 
    <td colname="col2"> <p>A métrica de Pessoas é baseada na ideia de que os consumidores interagem com a sua marca usando vários dispositivos. Quanto mais você divide ou segmenta seus dados, menor será a chance de a mesma pessoa usar vários dispositivos dentro dessa fatia de dados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitantes únicos </p> </td> 
-   <td colname="col2"> <p>Por exemplo, quanto mais você divide seus dados por data ou hora, menor será a diferença entre Pessoas e visitantes únicos. Se você quiser ter uma boa compreensão do impacto geral do Device Co-op, a Adobe recomenda usar um intervalo de datas dos últimos 90 dias </p> </td> 
+   <td colname="col2"> <p>Por exemplo, quanto mais você divide seus dados por data ou hora, menor será a diferença entre Pessoas e visitantes únicos. Se você quiser entender melhor o impacto geral do Device Co-op, o Adobe recomenda usar um intervalo de datas dos últimos 90 dias </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Compactação </p> </td> 
@@ -120,7 +123,7 @@ Esse problema ocorre principalmente ao empilhar segmentos com a métrica de Pess
 
 O empilhamento de segmentos cria um novo segmento que representa a combinação dos segmentos. O empilhamento de segmentos ocorre sempre que você:
 
-* Coloque um segmento sobre outro na área de trabalho da Análise. (Eles são automaticamente unidos usando o *`And`* operador.)
+* Coloque um segmento sobre outro no Analysis Workspace. (Eles são automaticamente unidos usando o *`And`* operador.)
 * Aplique um único segmento que contenha o *`And`* operador.
 * Aplique um segmento no nível do projeto e da tabela.
 * Use um conjunto de relatórios virtual com outro segmento.
@@ -144,13 +147,13 @@ O Device Co-op e a métrica de Pessoas funcionam melhor no Adobe Analytics quand
 
 ## Experience Cloud ID Service Coverage {#section-bbf0098cac2e467289e7a644a1dea05c}
 
-O Device Co-op exige que suas propriedades digitais sejam instrumentadas usando o serviço da Experience Cloud ID (MCID). Se os dados em seu conjunto de relatórios contiverem um número significativo de visitantes sem uma MCID, a eficácia do Device Co-op e da métrica de Pessoas será reduzida.
+O Device Co-op exige que suas propriedades digitais sejam instrumentadas usando o serviço Experience Cloud ID (MCID). Se os dados em seu conjunto de relatórios contiverem um número significativo de visitantes sem uma MCID, a eficácia do Device Co-op e da métrica de Pessoas será reduzida.
 
 <!--
 mcdc-people-metric-apply.xml
 -->
 
-Na área de trabalho da Análise, crie um [projeto](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)e arraste a métrica **[!UICONTROL People]** para a tabela do projeto:
+No Analysis Workspace, crie um [projeto](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)e arraste a **[!UICONTROL People]** métrica para a tabela do projeto:
 
 ![](assets/people-metric.png)
 

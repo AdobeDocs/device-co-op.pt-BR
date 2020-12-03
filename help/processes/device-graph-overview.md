@@ -5,6 +5,9 @@ seo-title: Visão geral do Gráfico de dispositivos
 title: Visão geral do Gráfico de dispositivos
 translation-type: tm+mt
 source-git-commit: c4c4d5f795f974297ba3952807329d92e51ccaad
+workflow-type: tm+mt
+source-wordcount: '29'
+ht-degree: 0%
 
 ---
 
@@ -12,6 +15,6 @@ source-git-commit: c4c4d5f795f974297ba3952807329d92e51ccaad
 # Visão geral do Gráfico de dispositivos
 
 * [Links determinísticos e probabilísticos](links.md)
-* [Compartilhamento de link no Gráfico de dispositivos.](link-sharing.md)
+* [Compartilhamento de link no Gráfico de dispositivos](link-sharing.md)
 * [Dispositivos conhecidos](known-device.md)
 * [Dispositivos desconhecidos](unknown-device.md)

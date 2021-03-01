@@ -25,7 +25,7 @@ ht-degree: 31%
    + [Compartilhamento de link no Gráfico de dispositivos](processes/link-sharing.md)
    + [Dispositivos conhecidos](processes/known-device.md)
    + [Dispositivos desconhecidos](processes/unknown-device.md)
-+ Dados cooperativos de dispositivo em soluções Experience Cloud {#data}
++ Dados cooperativos do dispositivo nas soluções Experience Cloud {#data}
    + [Dados do Device Co-op em soluções Experience Cloud](other-solutions/other-solutions.md)
    + [Métrica de pessoas](other-solutions/people.md)
    + [Audience Manager - Link do Perfil](other-solutions/proflie-link.md)

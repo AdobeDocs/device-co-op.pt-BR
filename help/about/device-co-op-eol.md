@@ -3,9 +3,9 @@ keywords: adobe experience cloud; Adobe Experience Cloud; device co-op; Device C
 title: Perguntas frequentes sobre o fim da vida útil do Device Co-op
 description: Saiba mais sobre os planos de fim de vida útil do Device Co-op.
 exl-id: 015ba95c-0c8d-415e-969c-b8670494de98
-source-git-commit: 8896718ce5fec25cb72f7a2a5ccb4573433e0bb1
+source-git-commit: 952fe1bc73efd99812f3f2950b009ff8dcd83ae1
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1053'
 ht-degree: 4%
 
 ---
@@ -25,6 +25,10 @@ As próximas alterações no ambiente AdTech devem resultar em [!DNL Device Co-o
 ## Por que o Adobe está terminando [!DNL Device Co-op] inscrições agora?
 
 As inscrições estão acabando para evitar riscos de não atender às expectativas dos clientes devido às próximas alterações do setor em cookies de terceiros. [!DNL Device Co-op] demora alguns meses para ser preparado e outros meses para extrair valor do serviço. Quaisquer novas inscrições neste ponto poderiam resultar em marcas que não apresentem o valor total de [!DNL Device Co-op].
+
+## Em julho de 2022, a Google anunciou o atraso da desativação de cookies de terceiros no Chrome para 2024. Isso afetará o [!DNL Device Co-op] Planos de EOL?
+
+Não, Adobe. [!DNL Device Co-op] Os planos EOL continuarão a ser os mesmos e não serão prorrogados.
 
 ## Os novos clientes podem se inscrever?
 

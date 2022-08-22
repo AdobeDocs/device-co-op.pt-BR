@@ -3,9 +3,9 @@ keywords: adobe experience cloud; Adobe Experience Cloud; device co-op; Device C
 title: Perguntas frequentes sobre o fim da vida útil do Device Co-op
 description: Saiba mais sobre os planos de fim de vida útil do Device Co-op.
 exl-id: 015ba95c-0c8d-415e-969c-b8670494de98
-source-git-commit: 952fe1bc73efd99812f3f2950b009ff8dcd83ae1
+source-git-commit: ab45f8f54046a31e60223a36c374dc99dc968d7c
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1079'
 ht-degree: 4%
 
 ---
@@ -40,7 +40,7 @@ A partir de 11 de junho de 2021, o Adobe não será mais renovado [!DNL Device C
 
 ## Qual é a data final exata do [!DNL Device Co-op] programa?
 
-O [!DNL Device Co-op] terminará em 2022. O tempo e a data específicos dependem de quando [!DNL Google] começa a bloquear cookies de terceiros.
+O [!DNL Device Co-op] terminará em 2022. O tempo e a data específicos dependem de quando [!DNL Google] começa a bloquear cookies de terceiros. O trabalho de desmantelamento deverá ter início em setembro de 2022.
 
 ## Quais aplicativos serão afetados pelo fim da vida útil do Device Co-op?
 
@@ -59,7 +59,7 @@ Você pode usar o [!DNL Analytics] [Análise entre dispositivos (CDA)](https://e
 
 ### [!DNL Audience Manager]
 
-[!DNL Audience Manager] mantém integrações com parceiros de gráficos de dispositivos de terceiros, incluindo [!DNL LiveRamp] e [!DNL Tapad], embora seja necessário estabelecer relações comerciais diretamente com parceiros de gráfico, para aproveitar [!DNL Audience Manager].
+[!DNL Audience Manager] mantém integrações com parceiros de gráficos de dispositivos de terceiros, incluindo [!DNL LiveRamp] e [!DNL Tapad], embora seja necessário estabelecer relações comerciais diretamente com parceiros de gráfico, para aproveitar [!DNL Audience Manager]. Espera-se que todos os clientes atualizem quaisquer Regras de mesclagem de perfis cooperativos para utilizar quaisquer opções diferentes de [!DNL Device Co-op.]
 
 ### [!DNL Real-time Customer Data Platform]
 

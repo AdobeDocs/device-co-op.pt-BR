@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Device Co-op arquivado
 
-Ver descontinuado.
+Consulte descontinuado.pt-BR

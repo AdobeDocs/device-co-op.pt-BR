@@ -1,6 +1,8 @@
 ---
 source-git-commit: 53d600491ee123201d0b01fb0cdb8974e092f79f
-translation-type: tm+mt
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 100%
 
 ---
 # Contribuição
@@ -17,7 +19,7 @@ deve seguir esse código. Denuncie qualquer comportamento inaceitável para
 
 ## Documentação do Guia do colaborador
 
-See the [Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+Consulte o [Manual do colaborador](https://docs.adobe.com/content/help/pt-BR/contributor/contributor-guide/introduction.html).
 
 ## Dúvidas?
 
@@ -36,7 +38,7 @@ você pode ir em frente!
 ## Revisões do código
 
 Todos os envios devem ser recebidos na forma de solicitações de pull e devem ser revisados
-pelos responsáveis pelo projeto. Leia a [documentação de solicitação de pull do GitHub](https://help.github.com/articles/about-pull-requests/)
+pelos responsáveis pelo projeto. Leia a [documentação de solicitação de pull do GitHub](https://help.github.com/pt/articles/about-pull-requests/)
 para obter mais informações sobre como enviar solicitações de pull.
 
 <!--
@@ -55,4 +57,4 @@ entre em contato com os responsáveis existentes para conversar sobre isso.
 
 ## Problemas de segurança
 
-Problemas de segurança não devem ser relatados neste rastreador de problemas. Em vez disso, [envie o problema para nossos especialistas em segurança](https://helpx.adobe.com/security/alertus.html)
+Problemas de segurança não devem ser relatados neste rastreador de problemas. Em vez disso, [envie o problema para nossos especialistas em segurança](https://helpx.adobe.com/br/security/alertus.html)
